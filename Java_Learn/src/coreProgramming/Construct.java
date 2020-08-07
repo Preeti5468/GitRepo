@@ -4,7 +4,7 @@ public class Construct {
 
 	public Construct()
 	{
-		this("abc",10,20);
+		this("abc",10,20.5F);
 		System.out.println("Default Constructor");
 		
 	}
@@ -16,7 +16,7 @@ public class Construct {
 	}
 	public Construct(String x, int a)
 	{
-		this(10);
+		this(10.8F);
 		System.out.println("2 Parameterized Constructor");
 		
 	}
